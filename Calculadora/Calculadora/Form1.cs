@@ -77,7 +77,6 @@ namespace Calculadora
                     }
                 case "=": calcula(); break;
                 case ".": if (!label1.Text.Contains(",")) label1.Text += ","; break;
-                case "0": if (label1.Text != "0") label1.Text += "0"; break;
                 default:
                     {
                         label1.Text += botao;
